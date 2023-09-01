@@ -1,11 +1,59 @@
 {
-    "posts": [
+    "configuration": {
+      "max_log_level": 1,
+      "service_kill_switch": "off"
+    },
+    "products": {
+      "AutoCAD" :
       {
-        "id": 1,
-        "title": "hello"
+        "20.4.0" : {
+          "id": 1,
+          "killSwitch": "off",
+          "name": "AutoCAD",
+          "buildNumber": "20.4.0",
+          "featureFlags": ["applies to only this autoCAD version"]
+        },
+        "20.5.0" : {
+          "id": 2,
+          "killSwitch": "off",
+          "name": "AutoCAD",
+          "buildNumber": "20.5.0",
+          "featureFlags": ["applies to only this autoCAD version"]
+        },
+        "20.6.0" : {
+          "id": 3,
+          "killSwitch": "off",
+          "name": "AutoCAD",
+          "buildNumber": "20.6.0",
+          "featureFlags": ["applies to only this autoCAD version"]
+        }
+  
+      },
+      "Fusion360" :
+      {
+        "2.0.0" : {
+          "id": 4,
+          "killSwitch": "off",
+          "name": "Fusion360",
+          "buildNumber": "2.0.0",
+          "featureFlags": ["applies to only this fusion360 version"]
+        },
+        "2.1.0" : {
+          "id": 5,
+          "killSwitch": "off",
+          "name": "Fusion360",
+          "buildNumber": "2.1.0",
+          "featureFlags": ["applies to only this fusion360 version"]
+        },
+        "2.2.0" : {
+          "id": 6,
+          "killSwitch": "off",
+          "name": "Fusion360",
+          "buildNumber": "2.2.0",
+          "featureFlags": ["applies to only this fusion360 version"]
+        }
       }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
+  
+      }
   }
+  
