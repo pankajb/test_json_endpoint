@@ -1,7 +1,8 @@
 {
     "configuration": {
       "max_log_level": 1,
-      "service_kill_switch": "off"
+      "service_kill_switch": "off",
+      "interval":60
     },
     "products": {
       "AutoCAD" :
